@@ -1,9 +1,4 @@
-
-package Task1;
-
-import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class CalcTest {
 
@@ -17,6 +12,6 @@ public class CalcTest {
         //Далее путём вызова функции созданного ранее экземпляра класса присваиваем результат исполнения функции в переменную
         int result = calculator.multiply(a, b);
         //Здесь сравнения полученного результата от функции с ожидаемым результатом
-        assertEquals(4, result);
+        Assert.assertEquals(4, result);
     }
 }

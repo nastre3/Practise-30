@@ -1,6 +1,4 @@
-package Task1;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class ApiTest {
 
@@ -8,6 +6,6 @@ public class ApiTest {
 
     @Test
     public void apiTest() {
-        // given().when().get(url).then().log().all().statusCode(200);
+        given().when().get(url).then().log().all().statusCode(200);
     }
 }
