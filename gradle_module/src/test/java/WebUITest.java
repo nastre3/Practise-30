@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class WebUITest {
 
-    private WebDriver webDriver;
+    // private WebDriver webDriver;
 
     @Before
     public void setup() {
